@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/word-tress/static/css/main.70c91fd9.css",
+    "main.js": "/word-tress/static/js/main.b76c643d.js",
+    "static/media/Logo.png": "/word-tress/static/media/Logo.4379016b912f6bbfca61.png",
+    "index.html": "/word-tress/index.html",
+    "main.70c91fd9.css.map": "/word-tress/static/css/main.70c91fd9.css.map",
+    "main.b76c643d.js.map": "/word-tress/static/js/main.b76c643d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70c91fd9.css",
+    "static/js/main.b76c643d.js"
+  ]
+}
