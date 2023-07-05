@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import "utils";
+
+.linkquiz {
+  // border: 6px solid red;
+  text-align: center;
+  margin-bottom: 10em;
+  color: whitesmoke;
+
+  > .linkQues {
+    > .linkHead {
+      font-size: 4rem;
+    }
+    > .linkpara {
+      > span {
+        color: rgb(198, 162, 32);
+      }
+      font-size: 2rem;
+      margin-bottom: 1em;
+    }
+  }
+  > a {
+    > .link-btn {
+      width: 200px;
+      height: 5vh;
+      background-color: transparent;
+      // border-color:  rgb(198, 162, 32);
+      color: whitesmoke;
+      border-color: rgb(198, 162, 32);
+      border-radius: 2px;
+      margin-bottom: 3em;
+      transition: all 0.3s ease-in-out;
+      font-family: "Dongle", sans-serif;
+      font-size: 1.5rem;
+      outline: none;
+      > &:hover {
+        background-color: rgb(198, 162, 32);
+        cursor: pointer;
+        // outline: none;
+      }
+    }
+  }
+  > .input-btn {
+    // border: 2px solid rebeccapurple;
+    height: 9vh;
+    > .input-text {
+      padding: 10px 15px;
+      height: 70%;
+      background-color: darkolivegreen;
+      outline: none;
+      font-family: "Dongle", sans-serif;
+      font-size: 2.5rem;
+      color: whitesmoke;
+      border: 0;
+      border-radius: 5px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}

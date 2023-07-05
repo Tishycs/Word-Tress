@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import "utils";
+
+.ResultPage {
+  background-color: $bg;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  text-align: center;
+
+  > .logout-btn {
+    position: fixed;
+    background-color: tomato;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 1.8rem;
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      scale: 110%;
+      cursor: pointer;
+    }
+  }
+
+  > .ResultCard {
+    height: 60%;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > h1 {
+      font-size: 5rem;
+      text-align: justify;
+    }
+
+    > .ResultBoard {
+      font-size: 2rem;
+      text-align: justify;
+    }
+
+    > .ResBtn {
+      width: 60%;
+      height: 3rem;
+      border-radius: 5px;
+      font-size: 2rem;
+      // padding: 0;
+      background-color: rgba(255, 166, 0, 0.937);
+      margin-top: 1em;
+      color: white;
+      border: 0;
+      transition: all 0.3s ease-in-out;
+
+      > &:hover {
+        scale: 110%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+      }
+    }
+  }
+}

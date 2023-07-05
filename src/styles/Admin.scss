@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import "utils";
+
+.dashboard {
+  background: $bg;
+  min-height: 100vh;
+  color: whitesmoke;
+
+  > .dashnavbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    > .dashHead {
+      font-size: 3rem;
+      width: 70%;
+    }
+
+    > .totalusers {
+      font-size: 2.5rem;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 2px;
+      padding: 5px 10px;
+      margin: 5px 5px;
+    }
+    > .logout-btn {
+      color: rgb(255, 255, 255);
+      background-color: rgba(255, 255, 255, 0.15);
+      font-size: 2.5rem;
+      text-align: center;
+      padding: 5px 10px;
+      margin: 5px 5px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        cursor: pointer;
+        scale: 105%;
+      }
+    }
+  }
+
+  > .Thedashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    > .adminHeadBox {
+      display: flex;
+      width: 80%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      > .adminUserHeader {
+        width: 40%;
+        background-color: rgba(255, 255, 255, 0.15);
+        font-size: 2.7rem;
+      }
+      > .adminHeader {
+        font-size: 2.7rem;
+        width: 20%;
+        background-color: rgba(255, 255, 255, 0.15);
+      }
+    }
+
+    > .adminBox {
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      align-items: center;
+      margin-top: 1px;
+
+      > .admin {
+        width: 40%;
+        background-color: $yellow;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-self: flex-start;
+        padding-left: 20px;
+        padding-top: 5px;
+        > .dashpara1 {
+          font-size: 2.7rem;
+          margin-left: 10px;
+        }
+      }
+
+      > .timestamp {
+        width: 20%;
+        background-color: rgba(255, 166, 0, 0.937);
+        align-self: stretch;
+        text-align: center;
+      }
+
+      > .level {
+        width: 20%;
+        background-color: rgba(255, 166, 0, 0.937);
+        align-self: stretch;
+        text-align: center;
+      }
+      > .hintUsed {
+        width: 20%;
+        background-color: rgba(255, 166, 0, 0.937);
+        align-self: stretch;
+        text-align: center;
+      }
+    }
+  }
+}
+.dashpara {
+  // margin-top: 0.5em;
+  font-size: 2.5rem;
+  padding: 0%;
+
+  //   border: 1px solid red;
+}
+
+.adminHead {
+  font-size: 3rem;
+}

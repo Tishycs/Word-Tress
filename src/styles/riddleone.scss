@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import "utils";
+
+.RiddleOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: "Dongle", sans-serif;
+  background-color: $bg;
+  color: whitesmoke;
+  > .RiddleHead {
+    font-size: 4rem;
+  }
+
+  > .RiddleQues {
+    // border: 1px solid red;
+    // width: 30%;
+    font-size: 2rem;
+    text-align: justify;
+  }
+  > .RiddleAns {
+    width: 50%;
+    height: 50%;
+    > .McqQues {
+      margin-top: 3em;
+      //    border: 1px solid green;
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      height: 50%;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      > .Mcqs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        height: 30%;
+        list-style: none;
+        background-color: darkolivegreen;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 2.5rem;
+        transition: all 0.3s ease-in-out;
+        > &:hover {
+          background-color: rgb(51, 65, 27);
+          cursor: pointer;
+        }
+        &:active {
+          scale: 95%;
+          transition: all 0s ease-in-out;
+        }
+      }
+      > .selected-op {
+        background-color: rgb(51, 65, 27);
+      }
+    }
+  }
+}

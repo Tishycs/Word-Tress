@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import "utils";
+
+.puzzle {
+  font-family: "Dongle", sans-serif;
+  background-color: $bg;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  > .puzzleHead {
+    color: white;
+    font-size: 5rem;
+  }
+  > .riddleBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 50%;
+    height: 10%;
+
+    > .word {
+      width: 10%;
+      height: 100%;
+      text-align: center;
+      font-size: 4rem;
+      color: aliceblue;
+      background-color: darkolivegreen;
+      border-radius: 3px;
+    }
+    > .missing-word {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 10%;
+      height: 100%;
+      font-size: 4rem;
+      color: aliceblue;
+      background-color: rgb(57, 68, 39);
+      border-radius: 3px;
+      transition: all 0.3s ease-in-out;
+      > &:hover {
+        scale: 105%;
+        transition: all 0.3s ease-in-out;
+      }
+      > input {
+        width: 100%;
+        background-color: rgb(57, 68, 39);
+        height: 50%;
+        border: 0px;
+        outline: none;
+        text-align: center;
+        color: aliceblue;
+        font-size: 4rem;
+        border-radius: 3px;
+        font-family: "Dongle", sans-serif;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

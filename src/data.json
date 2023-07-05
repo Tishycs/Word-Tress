@@ -1,0 +1,35 @@
+[
+  {
+    "word": ["H", "", "G", "", "E", "S", ""],
+    "solution": "HIGHEST",
+    "hint": "It is the synonym of maximal as well as supreme."
+  },
+  {
+    "riddle": "Some use me to drill holes in trees, children eat food through me, I am used to extract the nectar of flowers, I am used to fill stomach and quench thirst, passing required as showers.",
+    "op1": "Drilling machine",
+    "op2": "Peak (of birds)",
+    "op3": "Ramps",
+    "op4": "Tube wells",
+    "correctOp": "op2",
+    "hint": "It is synonym for the top of mountain."
+  },
+  {
+    "que": "The correct synonym of peak and summit when used as NOUN is",
+    "op1": "Ascend",
+    "op2": "Climb",
+    "op3": "Rise",
+    "op4": "Mount",
+    "correctOp": "op4",
+    "hint": "Use the grammatical reference carefully."
+  },
+  {
+    "ytLink": "https://www.youtube.com/watch?v=XrgVtuDRBjM",
+    "answer": "EVEREST",
+    "hint": "You can use internet to see the character's name in the movie. She is a girl." 
+  },
+
+  {
+   "answer": "mount everest is the highest peak",
+  "hint": "Make a proper sentence by combining the words in sequential order."
+  }                 
+]

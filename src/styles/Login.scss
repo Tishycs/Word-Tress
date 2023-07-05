@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import "utils";
+
+.login-page {
+  font-family: "Dongle", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: $bg;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+
+  > .form-page {
+    height: 60%;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > .logo-head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // border: 1px solid red;
+      font-size: 2rem;
+      // max-height: 10%;
+
+      > .logo {
+        // margin-right: 4px;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 1.5rem;
+      }
+    }
+    > .useEmail {
+      text-align: center;
+      font-size: 1.5rem;
+      display: block;
+      font-size: 2rem;
+      margin-bottom: 0.5em;
+    }
+    > .form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      > .signin-button {
+        width: 40%;
+        height: 3rem;
+        border-radius: 1000px;
+        font-size: 16px;
+        align-self: center;
+        background-color: rgba(255, 166, 0, 0.937);
+        margin-top: 2.5em;
+        color: white;
+        border: 0;
+        transition: all 0.3s ease-in-out;
+        font-size: 23px;
+
+        &:hover {
+          scale: 110%;
+          transition: all 0.3s ease-in-out;
+          cursor: pointer;
+        }
+      }
+    }
+    > .signup-or-login {
+      font-size: 1.5rem;
+      margin-top: 10px;
+
+      > span {
+        color: rgba(255, 166, 0, 0.937);
+        cursor: pointer;
+      }
+    }
+  }
+}

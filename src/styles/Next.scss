@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import "utils";
+
+.next-btn{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    width: 200px;
+    text-align: center;
+    margin: 20px 10px;
+    font-family: "Dongle", sans-serif;
+    cursor: pointer;
+    color: whitesmoke;
+
+    font-size: 2.5rem;
+    outline: none;
+    border: 0;
+    transform-style: preserve-3d;
+
+      background: linear-gradient(
+        322deg,
+        rgba(198, 162, 32, 1) 12%,
+        rgba(98, 107, 47, 1) 64%
+      );
+       transition: all 0.3s ease-in-out;
+   
+    >&:hover{
+      scale: 105%;
+        transition: all 0.3s ease-in-out;    
+    } 
+}

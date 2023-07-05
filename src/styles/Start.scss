@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import "utils";
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.start-page {
+  height: 100vh;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dongle", sans-serif;
+  > p {
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: justify;
+  }
+  > .start-btn {
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    font-family: "Dongle", sans-serif;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 1.7rem;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    animation: pulse 1s infinite;
+    &:hover {
+      border: 0;
+      background: linear-gradient(
+        322deg,
+        rgba(198, 162, 32, 1) 12%,
+        rgba(98, 107, 47, 1) 64%
+      );
+    }
+  }
+  > .logout-btn {
+    position: fixed;
+    background-color: tomato;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 1.8rem;
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      scale: 110%;
+      cursor: pointer;
+    }
+  }
+}

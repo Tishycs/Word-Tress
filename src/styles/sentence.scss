@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import "utils";
+
+.sentence{
+    text-align: center;
+    margin-bottom: 10em;
+    // border: 5px solid red; 
+    color: whitesmoke;
+    
+
+    >.sentenceQues{
+
+        >.quizHead{
+            font-size: 4rem;
+        }
+        >.quizpara{
+            font-size: 2rem;
+
+             >span{
+                color:#c6a220 ;
+            }
+        } 
+    }
+
+    >.sentence-box{
+        margin-top: 2em;
+        width: 100%;
+        height: 8vh;
+        // border: 2px solid rebeccapurple;
+
+        >.senInput{
+            width: 100%;
+            height: 8vh;
+            border-bottom:#556b2f;
+            outline: none;
+            font-family: "Dongle", sans-serif;
+            font-size: 2rem;
+            background-color: transparent;
+            color: white;
+            border: 0;
+            border-bottom:3px solid darkolivegreen;
+            
+        }
+    }
+}
